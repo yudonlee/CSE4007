@@ -30,10 +30,10 @@ def main():
             makeOutput(number, result, 'bfs')
         elif case[1] == 'csp':
             result = CSP.csp(number)
-            makeOutput(number, result, 'bfs')
+            makeOutput(number, result, 'csp')
         elif case[1] == 'hc':
             result = HC.hc(number)
-            makeOutput(number, result, 'bfs')
+            makeOutput(number, result, 'hc')
 
 
 if __name__ == "__main__":
